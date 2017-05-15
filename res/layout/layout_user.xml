@@ -1,0 +1,197 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"  
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+   	<RelativeLayout 
+   	    android:layout_width="fill_parent"
+		android:layout_height="150dip"
+		android:background="@drawable/yyy"
+		>
+		<ImageButton android:id="@+id/user_imagebutton"
+            android:layout_alignParentLeft="true"
+       	    android:layout_width="60dip"
+       	    android:layout_height="60dip"
+       	    android:layout_margin="10dip"      	    
+       	    android:background="@drawable/ic_launcher"
+       	    android:src="@drawable/imagebuttonbutton"
+       	    android:onClick="imageButtonOnClick"
+       	    />
+		<LinearLayout android:id="@+id/user_righttimagebutton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_toRightOf="@id/user_imagebutton"
+		    >
+		    <RelativeLayout android:id="@+id/user_name_lay"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		        >
+		        <TextView
+				    android:id="@+id/user_text_name"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_margin="10dip"
+				    android:text="@string/name"
+				    android:textColor="#111111"
+				    android:textSize="20sp" />
+				<Button android:id="@+id/user_name_button"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentRight="true"
+				    android:layout_toRightOf="@id/user_text_name"
+				    android:textColor="#111111"
+				    android:textSize="16sp"
+				    android:singleLine="true"
+				    android:background="@drawable/textbutton"
+				    />
+		        
+		        
+		    </RelativeLayout>
+		   	<RelativeLayout android:id="@+id/user_ruputation_lay"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		        >
+				<TextView
+				    android:id="@+id/user_text_reputation"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_margin="10dip"
+				    android:text="@string/repitation"
+				    android:textColor="#111111"
+				    android:textSize="20sp" />
+				
+				<Button android:id="@+id/user_ruputation_button"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentRight="true"
+				    android:layout_toRightOf="@id/user_text_reputation"
+				    android:textColor="#111111"
+				    android:textSize="16sp"
+				    android:singleLine="true"
+				    android:background="@drawable/textbutton"
+				    />
+		   	    
+	   	    </RelativeLayout>
+		    
+		   	<RelativeLayout android:id="@+id/user_ruputation_lay"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		        >
+				<TextView
+				    android:id="@+id/user_text_vip"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_margin="10dip"
+				    android:text="@string/grade"
+				    android:textColor="#111111"
+				    android:textSize="20sp" />
+				
+				<Button android:id="@+id/user_vip_button"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentRight="true"
+				    android:layout_toRightOf="@id/user_text_vip"
+				    android:textColor="#111111"
+				    android:textSize="16sp"
+				    android:singleLine="true"
+				    android:background="@drawable/textbutton"
+				    />
+		   	    
+	   	    </RelativeLayout>
+		   	
+		</LinearLayout>
+
+	</RelativeLayout>
+	<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/yy"
+        >
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+	        android:layout_height="70dip"
+	        android:layout_marginTop="20dip"
+            >
+            <TextView android:id="@+id/user_text_b"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="10dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#111111"
+                android:textSize="22sp"
+                android:text="@string/historyexpend"
+                />
+            <TextView android:id="@+id/user_edit_b"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dip"
+                android:layout_toRightOf="@id/user_text_b"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:textColor="#111111"
+                android:textSize="18sp"
+                android:background="@drawable/edit_yes"
+   
+                />
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+	        android:layout_height="70dip"
+            >
+            <TextView android:id="@+id/user_text_c"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="40dip"
+                android:layout_marginRight="10dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#111111"
+                android:textSize="22sp"
+                android:text="@string/engelcoefficient"
+                />
+            <TextView android:id="@+id/user_edit_c"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dip"
+                android:layout_toRightOf="@id/user_text_c"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:textColor="#111111"
+                android:textSize="18sp"
+                android:background="@drawable/edit_yes"
+                />
+        </RelativeLayout>
+    
+        <RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true" >
+		    <TextView
+		        android:id="@+id/user_text_e"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginBottom="10dip"
+		        android:text="Copyright © ph"
+		        android:textColor="#6699ff" />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@id/user_text_e"
+		        android:layout_centerHorizontal="true"
+		        android:text="@string/wel"
+	        	android:textColor="#99cc33" />
+		</RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandable_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/expandable_father_back"
+    android:paddingBottom="4dip" >
+  
+	<TextView android:id="@+id/expandable_text_a"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:textColor="#111111"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="10dip"
+	    />
+   	<TextView
+   	    android:id="@+id/expandable_text_week"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentTop="true"
+   	    android:layout_toLeftOf="@+id/expandable_text_c_a"
+   	    android:text="@string/week"
+   	    android:textColor="#111111" />
+
+   	<TextView
+   	    android:id="@+id/expandable_text_c_a"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignLeft="@+id/expandable_text_money"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignParentTop="true"
+   	    android:gravity="right"
+   	    android:textColor="#111111" />
+
+   	<TextView
+   	    android:id="@+id/expandable_text_money"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignBaseline="@+id/expandable_text_b"
+   	    android:layout_alignBottom="@+id/expandable_text_b"
+   	    android:layout_alignParentRight="true"
+   	    android:textColor="#111111" />
+
+   	<TextView
+   	    android:id="@+id/expandable_text_b"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_below="@+id/expandable_text_week"
+   	    android:layout_toLeftOf="@+id/expandable_text_money"
+   	    android:text="@string/expend"
+   	    android:textColor="#111111" />
+
+</RelativeLayout>  

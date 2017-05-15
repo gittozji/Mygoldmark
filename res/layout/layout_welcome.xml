@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_welcome_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bj"
+    >
+
+    <ImageView
+        android:id="@+id/layout_welcome_imageview"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/layout_welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_welcome_imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:textColor="#111111"
+        />
+    <TextView
+        android:id="@+id/layout_welcome_text_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:textSize="12sp"
+        android:textColor="#111111"
+        android:text="" />
+    <com.phlofy.mygoldmark.Painter android:id="@+id/layout_welcome_painter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

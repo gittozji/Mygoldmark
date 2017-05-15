@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fragment_five"
+	android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="fill_parent"
+    >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_weight="3.0"
+        android:layout_height="fill_parent"
+        >
+        <TextView android:id="@+id/fragment_five_text_a"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="10dip"
+            android:text="@string/averagesurplus"
+            />
+        <TextView android:id="@+id/fragment_five_text_d"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/fragment_five_text_a"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="16sp"
+            android:textColor="#111111"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="30dip"
+
+            />
+        <TextView android:id="@+id/fragment_five_text_b"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/fragment_five_text_a"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:text="@string/thismonthratio"
+            />
+        <TextView android:id="@+id/fragment_five_text_e"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/fragment_five_text_b"
+            android:layout_below="@id/fragment_five_text_d"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="16sp"
+            android:textColor="#111111"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="30dip"
+
+            />
+        <TextView android:id="@+id/fragment_five_text_c"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/fragment_five_text_b"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:text="@string/thismonthreputation"
+            />
+     	<TextView android:id="@+id/fragment_five_text_f"
+     	    android:gravity="center_vertical"
+            android:layout_toRightOf="@id/fragment_five_text_c"
+            android:layout_below="@id/fragment_five_text_e"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textSize="16sp"
+            android:textColor="#111111"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="30dip"
+ 
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/yy"
+    >
+    <RelativeLayout android:id="@+id/promotion_a"
+        android:layout_width="fill_parent"
+    	android:layout_height="50dip"
+    	android:background="@drawable/edit_yes"
+        >
+        <TextView
+		    android:id="@+id/promotion_a_a"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="@string/nowex"
+		    android:textColor="#111111"
+		    android:textSize="20sp" />
+		<TextView android:id="@+id/promotion_a_b"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@id/promotion_a_a"
+		   	android:layout_centerInParent="true"
+		  	android:gravity="center"
+		    android:textColor="#111111"
+		    android:textSize="16sp"
+		    android:singleLine="true"
+		    />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/promotion_b"
+        android:layout_width="fill_parent"
+    	android:layout_height="50dip"
+    	android:background="@drawable/edit_yes"
+        >
+        <TextView
+		    android:id="@+id/promotion_b_a"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="@string/devex"
+		    android:textColor="#111111"
+		    android:textSize="20sp" />
+		<EditText android:id="@+id/promotion_b_b"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@id/promotion_b_a"
+		    android:layout_centerInParent="true"
+		  	android:gravity="center"
+		  	android:numeric="integer"
+		    android:background="@drawable/promotion_editext"
+		    android:textColor="#111111"
+		    android:textSize="16sp"
+		    android:singleLine="true"
+		    />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/promotion_c"
+        android:layout_width="fill_parent"
+    	android:layout_height="50dip"
+    	android:background="@drawable/edit_yes"
+        >
+        <TextView
+		    android:id="@+id/promotion_c_a"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:text="@string/inpassword"
+		    android:textColor="#111111"
+		    android:textSize="20sp" />
+		<EditText android:id="@+id/promotion_c_b"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_toRightOf="@id/promotion_c_a"
+		    android:layout_centerInParent="true"
+		  	android:gravity="center"
+		    android:background="@drawable/promotion_editext"
+		    android:textColor="#111111"
+		    android:textSize="16sp"
+		    android:singleLine="true"
+		    android:password="true"
+		    />
+	</RelativeLayout>
+	<Button android:id="@+id/promotion_save"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/promotion_save_back"
+	    android:text="@string/upgrade"
+	    />
+	<Button android:id="@+id/promotion_cancel"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/cancel"
+	    />
+	<TextView android:id="@+id/promotion_text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:textColor="#111111"
+	    android:textSize="18sp"
+	    android:layout_margin="10dip"
+	    android:text="@string/tishi"
+	    />"
+</LinearLayout>

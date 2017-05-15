@@ -1,0 +1,70 @@
+<RelativeLayout   
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+	android:id="@+id/expandable_parent"
+	android:layout_height="wrap_content"   
+	android:paddingBottom="4dip"
+	android:layout_width="fill_parent"
+	android:background="@drawable/edit_yes"
+	>
+
+    <TextView
+        android:id="@+id/top_textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dip"
+        android:textColor="#404040"
+        />
+
+    <TextView
+        android:id="@+id/top_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:textColor="#404040"
+        android:text="@string/sum" />
+
+    <TextView
+        android:id="@+id/top_textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:textColor="#404040"
+        />
+
+    <TextView
+        android:id="@+id/top_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top_textView1"
+        android:layout_marginLeft="10dip"
+        android:textColor="#404040"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/top_textView2"
+        android:layout_alignBottom="@+id/top_textView2"
+        android:layout_toLeftOf="@+id/top_textView7"
+        android:textColor="#404040"
+        android:text="@string/lesser" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/top_textView6"
+        android:textColor="#404040"
+        android:text="@string/more" />
+
+</RelativeLayout>  

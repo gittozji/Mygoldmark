@@ -1,0 +1,46 @@
+<RelativeLayout   
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+	android:id="@+id/expandable_son"
+	android:layout_height="wrap_content"   
+	android:paddingBottom="4dip"
+	android:layout_width="fill_parent"
+	android:background="@drawable/expandable_son_back"
+	>  
+	<ImageView android:id="@+id/expandable_tow_ima"
+	    android:layout_height="40dip"
+	    android:layout_width="40dip"
+	    android:layout_marginLeft="20dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_centerVertical="true"
+	    />
+
+	<TextView
+	    android:id="@+id/expandable_two_text_typename"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/expandable_tow_ima"
+	    android:layout_toRightOf="@+id/expandable_tow_ima"
+	    android:textSize="18sp"
+	    android:textColor="#111111"
+	    />
+
+	<TextView
+	    android:id="@+id/expandable_two_text_money"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/expandable_tow_ima"
+	    android:layout_alignParentRight="true"
+	    android:textSize="16sp"
+	   	android:textColor="#111111"
+	    />
+
+	<TextView
+	    android:id="@+id/expandable_two_moneyname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/expend"
+	    android:textColor="#424242" />
+
+</RelativeLayout>  

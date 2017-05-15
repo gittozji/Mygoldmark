@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+	    android:id="@+id/linearlayout"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="20dip" >
+			
+			<Button
+	            android:id="@+id/fragment_two_button_a"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/f_calator"
+	        />
+	        <TextView
+	            android:id="@+id/fragment_two_edit_a"
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dip"
+	            android:layout_toLeftOf="@+id/fragment_two_button_a"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/edit_yes"
+	            android:singleLine="true"
+	            android:gravity="center_vertical"
+	            android:textColor="#000000"
+	            android:textSize="18sp"
+	            android:hint="@string/prompt2"
+	            />      
+	    </RelativeLayout>
+	
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="20dip" >
+			
+			<Button
+	            android:id="@+id/fragment_two_button_b"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/f_lei"
+	        />
+	        <TextView
+	            android:id="@+id/fragment_two_edit_b"
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dip"
+	            android:layout_toLeftOf="@+id/fragment_two_button_b"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/edit_yes"
+	            android:gravity="center_vertical"
+	            android:textColor="#000000"
+	            android:textSize="18sp"
+	            android:hint="@string/prompt3"
+	            />      
+	    </RelativeLayout>
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="20dip" >
+			
+			<Button
+	            android:id="@+id/fragment_two_button_c"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/f_bei"
+	        />
+	        <TextView
+	            android:id="@+id/fragment_two_edit_c"
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dip"
+	            android:layout_toLeftOf="@+id/fragment_two_button_c"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/edit_yes"
+	            android:gravity="center_vertical"
+	            android:textColor="#000000"
+	            android:textSize="18sp"
+	            android:ellipsize="marquee"
+	            android:marqueeRepeatLimit="marquee_forever"
+	            android:singleLine="true"
+	            android:focusable="true"
+	            android:focusableInTouchMode="true"
+	          	android:hint="@string/prompt4" 
+	            />      
+	    </RelativeLayout>
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dip"
+	        android:orientation="horizontal" 
+	        >
+	
+	        <Button android:id="@+id/fragment_two_d"
+	            android:layout_width="110dip"
+	            android:layout_height="60dip"
+	            android:layout_weight="1.0"
+	            android:textColor="#111111"
+	            android:background="@drawable/button_bqs"
+	            android:text="@string/save"
+	           	/>
+	        <Button android:id="@+id/fragment_two_e"
+	            android:layout_width="110dip"
+	            android:layout_height="60dip"
+	            android:layout_weight="1.0"
+	            android:textColor="#111111"
+	            android:background="@drawable/button_bqs"
+	            android:text="@string/cancel"
+	           	/>
+	        <Button android:id="@+id/fragment_two_g"
+	            android:layout_width="110dip"
+	            android:layout_height="60dip"
+	            android:layout_weight="1.0"
+	            android:textColor="#111111"
+	            android:background="@drawable/button_bqs"
+	           	/>
+	    </LinearLayout>
+	    
+	</LinearLayout>
+</ScrollView>
